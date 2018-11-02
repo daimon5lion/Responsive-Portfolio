@@ -257,15 +257,15 @@ a:hover {
 @media screen and (max-width: 980px) {
   header {
     position: static;
-    height: 10vh;
+    height: 60px;
   }
   .tap {
     margin-left: 10vw;
-    height: 10vh;
-    line-height: 3vh;
+    height: 60px;
+    line-height: 25px;
   }
   .tap h1 {
-    font-size: 4vh;
+    font-size: 20px;
   }
   .mcontent {
     width: 80vw;
@@ -291,21 +291,22 @@ a:hover {
 @media screen and (max-width: 768px) {
   header {
     position: static;
-    height: 8vh;
+    height: 45px;
   }
   .tap {
     margin-left: 4vw;
-    height: 8vh;
-    line-height: 2vh;
+    height: 45px;
+    line-height: 2px;
   }
   .tap h1 {
-    font-size: 3vh;
+    font-size: 20px;
   }
   #nav a {
-    font-size: 2.5vh;
+    font-size: 20px;
   }
   #nav ul {
     right: 10vw;
+    top: 15px;
   }
   .mcontent {
     width: 80vw;
@@ -325,21 +326,24 @@ a:hover {
 @media screen and (max-width: 640px) {
   header {
     position: static;
-    height: 8vh;
+    height: 40px;
   }
   .tap {
-    margin-left: 4vw;
-    height: 8vh;
-    line-height: 2vh;
+    margin-left: 1vw;
+    height: 40px;
+    line-height: 5px;
   }
   .tap h1 {
-    font-size: 3vh;
+    font-size: 15px;
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
   #nav a {
-    font-size: 2vh;
+    font-size: 12px;
   }
   #nav ul {
-    right: 10vw;
+    right: 6vw;
+    top: 12px;
   }
   .mcontent {
     width: 80vw;
@@ -348,16 +352,58 @@ a:hover {
   }
   .pcontent {
     width: 80vw;
+    height: 900px;
     margin-top: 7vh;
     margin-bottom: 2vh;
   }
   footer {
     position: static;
   }
-  #soccer,
-  #sr,
-  #game,
+  #fishing {
+    top: 120px;
+    margin-left: 6vw;
+  }
+  #fg {
+    top: 230px;
+    margin-left: 6vw;
+  }
+  #soccer {
+    top: 280px;
+    left: 40px;
+    margin-left: 6vw;
+  }
+  #sr {
+    top: 390px;
+    left: 40px;
+    margin-left: 6vw;
+  }
+  #food {
+    top: 440px;
+    margin-left: 6vw;
+  }
+  #fd {
+    top: 550px;
+    left: 40px;
+    margin-left: 6vw;
+  }
+  #game {
+    top: 600px;
+    left: 40px;
+    margin-left: 6vw;
+  }
   #ge {
-    right: 10vw;
+    top: 710px;
+    left: 40px;
+    margin-left: 6vw;
+  }
+  #boxing {
+    top: 760px;
+    left: 40px;
+    margin-left: 6vw;
+  }
+  #bg {
+    top: 870px;
+    left: 40px;
+    margin-left: 6vw;
   }
 }
